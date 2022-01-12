@@ -34,12 +34,19 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         Intent intent = new Intent(Settings.ACTION_APN_SETTINGS);
+        
+        /*New permissions manager added for compatibility with android 5.*+ */
+        sendIntent.putExtra("sub_id", SubscriptionManager.NAME_SOURCE_SIM_SOURCE);
+        
         startActivity(intent);
     }
 
     /** Called when the user clicks the APN Settings button */
     public void openAPNSettings(View view) {
         Intent intent = new Intent(Settings.ACTION_APN_SETTINGS);
+        
+        /*New permissions manager added for compatibility with android 5.*+ */
+        sendIntent.putExtra("sub_id", SubscriptionManager.NAME_SOURCE_SIM_SOURCE);
         startActivity(intent);
     }
 
