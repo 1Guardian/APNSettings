@@ -8,6 +8,6 @@ APN Settings section of Android Settings.
 
 This app was forked, but due to upgrade issues with gradle, I just did a quick and dirty rebuild from the ground up with SDK 11, and gradle 3.2 in android studio. For building, simply use android studio with the aforementioned SDK and gradle versions.
 
-Second note: Since I did not care what this app looked like other than launching the apn settings when clicked, there is extraneous code. If anyone feels like cleaning it up, be my guest, but I just made this for a friend who was tired of going through settings to swap APN presents in android 12.
+Second note: Since I did not care what this app looked like other than launching the apn settings when clicked, there is extraneous code. If anyone feels like cleaning it up, be my guest, but I just made this for a friend who was tired of going through settings to swap APN presets in android 12.
 
-To build the app, either download the source and extract the app.zip file (I couldn't be bothered to set up CLI git just for this stupid little thing, or download the source zip in the 'releases' section and extract that into the entire source tree
+To build the app, either download the source and extract the app.zip file (I couldn't be bothered to set up CLI git just for this stupid little thing, or download the "APNShortcut" zip in the 'releases' section and extract that into the entire source tree
